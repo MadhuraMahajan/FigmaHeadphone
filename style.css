@@ -1,0 +1,794 @@
+@import url('https://fonts.googleapis.com/css2?family=Autography&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: "Poppins";
+}
+#main{
+    width: 100%;
+}
+#Home{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+}
+#second{
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#third{
+    width: 100%;
+    min-height: 100px;
+    min-height: 100px;
+  
+}
+#four{
+    width: 100%;
+    min-height: 510.05px;
+    display: flex;
+}
+#five{
+    width: 100%;
+
+}
+#container{
+    width: 100%;
+}
+#Lside{
+    width: 70px;
+    height: 896px;
+    background-color: #333333;
+    display: block;
+
+}
+.icons{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 20px;
+    padding: 40px 20px;
+}
+.icons img{
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 10px;
+    transform: rotate(-90deg);
+}
+#Lside h2{
+    width: 150px;
+    height: 91px;
+    top: 551.86px;
+    margin-left: -17px;
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 36px;
+    transform: rotate(-90deg);
+    color: #FFFFFF;
+}
+#line{
+    width: 204.65px;
+    top: 562.75px;
+    left: 35px;
+    position: fixed;
+    border: 1px;
+    transform: rotate(-90deg);
+    transform-origin: left bottom;
+    border: 1px solid #FFFFFF;
+
+}
+
+
+#claenbeats{
+    width: 238px;
+    height: 91px;
+    margin-top: 15.51px;
+    left: 87.11px;
+    padding: 20px;
+    
+}
+#heading{
+    width: 493px;
+    height: 144px;
+    margin-top: 240.08px;
+    left: 80.61px;
+
+}
+#heading h2{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #333333;
+}
+#para{
+    width: 651.53px;
+    height: 151.57px;
+    top: 418.68px;
+    left: 80.61px;
+}
+#para p{
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    align-items: center;
+    color: #333333;
+}
+#price{
+    width: 231px;
+    height: 42px;
+    top: 602.7px;
+    left: 80.61px;
+}
+#price h2{
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: #333333;
+}
+#headphone{
+    width: 564px;
+    height: 544px;
+    margin-top: 149.08px;
+    left: 722.9px;
+}
+#headphone img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#menu{
+    width: 48px;
+    height: 11px;
+    margin-top: 46.9px;
+    left: 1286.9px;
+}
+#menu img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#features{
+    width: 164px;
+    height: 36px;
+    top: 981.04px;
+    margin-left: 80.21px;
+}
+#features h3{
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -.1em;
+    line-height: 36px;
+    color: #333333;
+}
+#sec-heading{
+    width: 885px;
+    height: 128px;
+    margin-top: 1029px.21px;
+    left: 80.21px;
+}
+#sec-heading h2{
+    font-family: Poppins, sans-serif;
+    font-weight: 600px;
+    font-size: 48px;
+    padding: 20px;
+    line-height: 64px;
+    color: #333333;
+}
+#allfeature{
+    width: 216px;
+    height: 72px;
+    top: 1052.52px;
+    left: 1143px;
+    border: 2px;
+    border-color: #333333;
+
+}
+#allfeature h3{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px;
+    line-height: 30px;
+    color: #333333;
+}
+#Ffeature{
+    display: flex;
+    padding: 20px;
+}
+#sfeature{
+    display: flex;
+    padding: 20px;
+}
+#wireless{
+    width: 409.8px;
+    height: 207.14px;
+    top: 1215.55px;
+    left: 80px;
+}
+#wireless h2{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+#wireless p{
+    font-family: Poppins, sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 5px;
+    align-items: center;
+    color: #333333;
+}
+#wireless #learn{
+    width: 94px;
+    height: 24px;
+    top: 1398.69px;
+    left: 80.98px;
+    margin: 5px;
+    background-color: #fff;
+}
+#qualtitive{
+    width: 409.8px;
+    height: 207.14px;
+    top: 1215.55px;
+    left: 80px;
+}
+#qualtitive h2{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+#qualtitive p{
+    font-family: Poppins, sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 5px;
+    align-items: center;
+    color: #333333;
+}
+#qualtitive #learn{
+    width: 94px;
+    height: 24px;
+    top: 1398.69px;
+    left: 80.98px;
+    margin: 5px;
+    background-color: #fff;
+}
+#beautiful{
+    width: 409.8px;
+    height: 207.14px;
+    top: 1215.55px;
+    left: 80px;
+}
+#beautiful h2{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+#beautiful p{
+    font-family: Poppins, sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 5px;
+    align-items: center;
+    color: #333333;
+}
+#beautiful #learn{
+    width: 94px;
+    height: 24px;
+    top: 1398.69px;
+    left: 80.98px;
+    margin: 5px;
+    background-color: #fff;
+}
+#high-end{
+    width: 409.8px;
+    height: 207.14px;
+    top: 1215.55px;
+    left: 80px;
+}
+#high-end h2{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+#high-end p{
+    font-family: Poppins, sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 5px;
+    align-items: center;
+    color: #333333;
+}
+#high-end #learn{
+    width: 94px;
+    height: 24px;
+    top: 1398.69px;
+    left: 80.98px;
+    margin: 5px;
+    background-color: #fff;
+}
+#bluetooth{
+    width: 409.8px;
+    height: 207.14px;
+    top: 1215.55px;
+    left: 80px;
+}
+#bluetooth h2{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+#bluetooth p{
+    font-family: Poppins, sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 5px;
+    align-items: center;
+    color: #333333;
+}
+#bluetooth #learn{
+    width: 94px;
+    height: 24px;
+    top: 1398.69px;
+    left: 80.98px;
+    margin: 5px;
+    background-color: #fff;
+}
+#waterproof{
+    width: 409.8px;
+    height: 207.14px;
+    top: 1215.55px;
+    left: 80px;
+    
+}
+#waterproof h2{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+#waterproof p{
+    font-family: Poppins, sans-serif;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 5px;
+    align-items: center;
+    color: #333333;
+}
+#bluetooth #learn{
+    width: 94px;
+    height: 24px;
+    top: 1398.69px;
+    left: 80.98px;
+    margin: 5px;
+}
+#arrow {
+    width: 24px;
+    height: 24px;
+    top: 1398.69px;
+    background-color: #333333;
+}
+
+#specification{
+    width: 1440px;
+    height: 1008px;
+    top: 18082px;
+    background-color: #333333;
+}
+#view{
+    width: 197px;
+    height: 36px;
+    top: 1893.88px;
+    margin-top: 20px;
+    margin-left: 627.54px;
+
+}
+#view h3{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #A1A0A1;
+    letter-spacing: -.04em;
+}
+#specif{
+    width: 558px;
+    height: 64px;
+    top: 1945.11px;
+    margin-left: 441px;
+}
+
+#specif h3{
+    font-family: Poppins, sans-serif;
+    font-weight: 600px;
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+#thirdmain{
+    width: 100%;
+    display: flex;
+}
+#desc{
+    width: 534px;
+    height: 363px;
+    padding-top: 10px;
+    top: 2190.66px;
+    left: 74.89px;
+    margin: 70px;
+   
+}
+#desc img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#name{
+    width: 298px;
+    height: 36px;
+    top: 2101.66px;
+    left: 731.95px;
+    margin: 25px;
+}
+#name h2{
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F4F4F4;
+}
+#weight{
+    width: 163px;
+    height: 36px;
+    top: 2164.66px;
+    left: 731.95px;
+    margin: 25px;
+}
+#weight h2{
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F4F4F4;
+}
+#height{
+    width: 170px;
+    height: 36px;
+    top: 2227.66px;
+    left: 731.95px;
+    margin: 25px;
+}
+
+#height h2{
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F4F4F4;
+}
+#color{
+    width: 201px;
+    height: 36px;
+    top: 2290.66px;
+    left: 731.95px;
+    margin: 25px;
+}
+#color h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F4F4F4;
+}
+#type{
+    width: 310px;
+    height: 36px;
+    top: 2353.66px;
+    left: 731.95px;
+    margin: 25px;
+}
+#type h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F4F4F4;
+}
+#batterylife{
+    width: 226px;
+    height: 36px;
+    top: 2416.66px;
+    left: 731.95px;
+    margin: 25px;
+}
+#batterylife h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F4F4F4;
+}
+#battery{
+    width: 200px;
+    height: 36px;
+    top: 2479.66px;
+    left: 731.95px;
+    margin: 25px;
+}
+#battery h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F4F4F4;
+}
+#dimension{
+    width: 318px;
+    height: 36px;
+    top: 2542.66px;
+    left: 731.95px;
+    margin: 25px;
+}
+#dimension h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F4F4F4;
+}
+#connector{
+    width: 514px;
+    height: 36px;
+    top: 2605.66px;
+    left: 731.95px;
+    margin: 25px;
+}
+#connector h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F4F4F4;
+}
+#operating{
+    width: 343px;
+    height: 36px;
+    top: 2668.66px;
+    left: 731.95px;
+    margin: 25px;
+}
+#operating h2{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F4F4F4;
+}
+#discount{
+    width: 780px;
+    height: 168px;
+    top: 2901.5px;
+    margin-left: 330px;
+
+}
+#discount h2{
+    font-weight: 600px;
+    font-size: 56px;
+    line-height: 84px;
+    align-items: center;
+}
+#discount p{
+    font-weight: 400;
+    height: 151.57px;
+    font-size: 20px;
+    line-height: 36px;
+    align-items: center;
+}
+#buy{
+    width: 192px;
+    height: 57.47px;
+    top: 3269.98px;
+    left: 624px;
+    background-color: #333333;
+}
+#buy h2{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    align-items: center;
+}
+#contact{
+    width: 1440px;
+    height: 1018px;
+    top: 3416.77px;
+    background-color: #333333;
+}
+#contact h2{
+    width: 127px;
+    height: 36px;
+    top: 3501.23px;
+    margin-left: 656.5px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    align-items: center;
+    color: #A1A0A1;
+}
+#contact h1{
+    width: 809px;
+    height: 64px;
+    top: 3552.45px;
+    margin-left: 315.5px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+#data{
+    display: flex;
+}
+#fname h2{
+    width: 150px;
+    height: 36px;
+    top: 3689.67px;
+    margin-left: 298.92px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #A1A0A1;
+}
+#f{
+    width: 500x;
+    margin-left: 298.92px;
+    border: 1 px solid #FFFFFF;
+}
+#email h2{
+    width: 172px;
+    height: 36px;
+    top: 3689.67px;
+    margin-left: 400.61px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #A1A0A1;
+}
+#e{
+    width: 400px;
+    margin-left: 400.61px;
+    border: 1 px solid #FFFFFF;
+}
+#subject h2{
+    width: 68px;
+    height: 36px;
+    top: 3759.04px;
+    margin-left: 298.92px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #A1A0A1;
+}
+#s{
+    width: 700px;
+    margin-left: 298px;
+    border: 1 px solid #FFFFFF;
+}
+#help h2{
+    width: 179px;
+    height: 36px;
+    top: 3826.02px;
+    margin-left: 298.92px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #A1A0A1;
+}
+#h{
+    width: 700px;
+    margin-left: 298px;
+    border: 1 px solid #FFFFFF;
+}
+#submit h2{
+    width: 188.37px;
+    height: 62px;
+    top: 3910.78px;
+    margin-left:625.81px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border: 1px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+#footer{
+    display: flex;
+}
+#foot h2{
+    width: 238px;
+    height: 91px;
+    top: 4154.11px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    font-family: 'Autography', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+#foot p{
+    width: 192px;
+    height: 48px;
+    top:249px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+#address h2{
+    width: 99px;
+    height: 36px;
+    top: 4155.11px;
+    margin-left: 207.68px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+#address p{
+    width: 212px;
+    height: 120px;
+    top: 4208.78px;
+    margin-left: 206.68px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+#about h2{
+    width: 553px;
+    height: 36px;
+    top: 4158.04px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+#about p{
+    width: 525px;
+    height: 48px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    top: 4221.49px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
